@@ -1,12 +1,46 @@
-Ajustar los menus
-Poner foto a todo lo necesario 
-Actualizar la informacion de los menus
-Actualizar la informacion de los footer 
-Corregir las faltas de ortografia
-Subir paginas a apache
-Crear paginas de error 403 y 404  
-Configurar paginas de mensajes de error
-Configurar paginas de error 403 y 404
-Configurar modulos externos y secudnarios 
-Configurar el www en apache 
+Ajustar los menus :
+   - Se han ajustado los menus y enlaces a responsive :
+      - Acerca de = Terminado 
+      - Comunidad = Terminado
+      - Cursos = Terminado
+      - Desarrolladores = Terminado
+      - Pagina de inicio = Terminado
+      - Precios = Terminado
+      - Servicios = Terminado
 
+   - Introducir los datos adecuados
+      - Acerca de = 
+      - Comunidad = 
+      - Cursos = 
+      - Desarrolladores = 
+      - Pagina de inicio = 
+      - Precios = 
+      - Servicios = 
+      
+
+Actualizar la informacion de los footer
+   - 
+
+Corregir las faltas de ortografia
+   - 
+
+Configurar el titulo de pestaña de cada pagina 
+   - 
+
+Subir paginas a apache
+   - 
+
+Crear paginas de error 403 y 404  
+   - 
+
+Configurar paginas de mensajes de error
+   - 
+
+Configurar paginas de error 403 y 404
+   - 
+
+Configurar modulos externos y secudnarios 
+   - 
+
+Configurar el www en apache 
+   - 

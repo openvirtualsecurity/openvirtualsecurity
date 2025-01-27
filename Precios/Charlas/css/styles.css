@@ -71,7 +71,7 @@ nav ul li {
     margin-left: 20px;
 }
 
-.nsvitem:hover {
+.nsvitem:hover{
     background-color: red;
     color: white;
     padding: 5px;
@@ -88,17 +88,14 @@ nav ul li a {
 .fijo {
     width: 100%;
     margin: auto;
-    overflow: hidden;
+    overflow:hidden;
     background-color: #000;
 }
 
 .Logo-bienvenida img {
-    height: 60px;
-    /* La imagen se ajusta al 100% del contenedor */
-    border-radius: 50%;
-    /* Hace que la imagen también sea circular */
-    object-fit: cover;
-    /* Asegura que la imagen se recorte para llenar el círculo sin distorsionarse */
+    height: 60px; /* La imagen se ajusta al 100% del contenedor */
+    border-radius: 50%; /* Hace que la imagen también sea circular */
+    object-fit: cover; /* Asegura que la imagen se recorte para llenar el círculo sin distorsionarse */
 }
 
 /* Estilos despleglables */
@@ -108,9 +105,9 @@ nav ul li a {
     background-color: #000000;
     z-index: 2;
     color: white;
-    width: 700px;
-    left: 883px;
-    top: 58px;
+    width: 595px;
+    left: px;
+    top: px;
 }
 
 .desplegable-servicios a {
@@ -131,8 +128,8 @@ nav ul li a {
     z-index: 2;
     color: white;
     width: 300px;
-    left: 980px;
-    top: 58px;
+     left :px;
+     top: px;
 }
 
 .desplegable-courses a {
@@ -149,12 +146,12 @@ nav ul li a {
 .desplegable-prices {
     display: none;
     position: fixed;
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
     z-index: 2;
     color: lightblue;
     width: 250px;
-    left: 1049px;
-    top: 58px;
+    left: px;
+    top: px;
 }
 
 .desplegable-prices a {
@@ -165,18 +162,18 @@ nav ul li a {
 }
 
 .desplegable-prices a:hover {
-    color: red;
+color: red;
 }
 
 .desplegable-comunity {
     display: none;
     position: fixed;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     z-index: 2;
     color: white;
     width: 250px;
-    left: 1136px;
-    top: 58px;
+    left:px;
+    top: px;
 }
 
 .desplegable-comunity a {
@@ -193,12 +190,12 @@ nav ul li a {
 .desplegable-developers {
     display: none;
     position: fixed;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     z-index: 2;
     color: white;
     width: 250px;
-    left: 1258px;
-    top: 58px;
+    left: px;
+    top: px;
 }
 
 .desplegable-developers a {
@@ -215,12 +212,12 @@ nav ul li a {
 .desplegable-about {
     display: none;
     position: fixed;
-    background-color: #000;
+    background-color: #000000;
     z-index: 2;
     color: white;
     width: 150px;
-    left: 1370px;
-    top: 58px;
+    left: px;
+    top: px;
 }
 
 .desplegable-about a {

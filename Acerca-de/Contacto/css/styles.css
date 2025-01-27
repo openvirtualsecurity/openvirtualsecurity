@@ -105,9 +105,9 @@ nav ul li a {
     background-color: #000000;
     z-index: 2;
     color: white;
-    width: 700px;
-    left: 865px;
-    top: 58px;
+    width: 595px;
+    left: px;
+    top: 55px;
 }
 
 .desplegable-servicios a {
@@ -128,8 +128,8 @@ nav ul li a {
     z-index: 2;
     color: white;
     width: 300px;
-    left: 980px;
-    top: 58px;
+     left :px;
+     top: 55px;
 }
 
 .desplegable-courses a {
@@ -146,12 +146,12 @@ nav ul li a {
 .desplegable-prices {
     display: none;
     position: fixed;
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
     z-index: 2;
     color: lightblue;
     width: 250px;
-    left: 1049px;
-    top: 58px;
+    left: px;
+    top: 55px;
 }
 
 .desplegable-prices a {
@@ -168,12 +168,12 @@ color: red;
 .desplegable-comunity {
     display: none;
     position: fixed;
-    background-color:black;
+    background-color: rgb(0, 0, 0);
     z-index: 2;
     color: white;
     width: 250px;
-    left: 1136px;
-    top: 58px;
+    left:px;
+    top: 55px;
 }
 
 .desplegable-comunity a {
@@ -190,12 +190,12 @@ color: red;
 .desplegable-developers {
     display: none;
     position: fixed;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     z-index: 2;
     color: white;
     width: 250px;
-    left: 1258px;
-    top: 58px;
+    left: px;
+    top: 55px;
 }
 
 .desplegable-developers a {
@@ -212,12 +212,12 @@ color: red;
 .desplegable-about {
     display: none;
     position: fixed;
-    background-color: #000;
+    background-color: #000000;
     z-index: 2;
     color: white;
     width: 150px;
-    left: 1370px;
-    top: 58px;
+    left: px;
+    top: 55px;
 }
 
 .desplegable-about a {
