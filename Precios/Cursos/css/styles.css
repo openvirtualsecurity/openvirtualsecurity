@@ -71,7 +71,7 @@ nav ul li {
     margin-left: 20px;
 }
 
-.nsvitem:hover{
+.nsvitem:hover {
     background-color: red;
     color: white;
     padding: 5px;
@@ -88,14 +88,17 @@ nav ul li a {
 .fijo {
     width: 100%;
     margin: auto;
-    overflow:hidden;
+    overflow: hidden;
     background-color: #000;
 }
 
 .Logo-bienvenida img {
-    height: 60px; /* La imagen se ajusta al 100% del contenedor */
-    border-radius: 50%; /* Hace que la imagen también sea circular */
-    object-fit: cover; /* Asegura que la imagen se recorte para llenar el círculo sin distorsionarse */
+    height: 60px;
+    /* La imagen se ajusta al 100% del contenedor */
+    border-radius: 50%;
+    /* Hace que la imagen también sea circular */
+    object-fit: cover;
+    /* Asegura que la imagen se recorte para llenar el círculo sin distorsionarse */
 }
 
 /* Estilos despleglables */
@@ -105,7 +108,7 @@ nav ul li a {
     background-color: #000000;
     z-index: 2;
     color: white;
-    width: 595px;
+    width: px;
     left: px;
     top: px;
 }
@@ -127,9 +130,9 @@ nav ul li a {
     background-color: #000000;
     z-index: 2;
     color: white;
-    width: 300px;
-     left :px;
-     top: px;
+    width: px;
+    left: px;
+    top: px;
 }
 
 .desplegable-courses a {
@@ -162,7 +165,7 @@ nav ul li a {
 }
 
 .desplegable-prices a:hover {
-color: red;
+    color: red;
 }
 
 .desplegable-comunity {
@@ -172,7 +175,7 @@ color: red;
     z-index: 2;
     color: white;
     width: 250px;
-    left:px;
+    left: px;
     top: px;
 }
 
@@ -641,14 +644,14 @@ h1 {
 
 
 .Titulotabla {
-    color:red;
+    color: red;
 }
 
 
 
 
 .text {
-text-align: center;
+    text-align: center;
 }
 
 .Parrafo-tabla {
@@ -659,4 +662,4 @@ text-align: center;
 
 
 
-    Ciberseguridad
+Ciberseguridad
