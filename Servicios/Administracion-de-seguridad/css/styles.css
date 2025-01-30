@@ -605,3 +605,20 @@ body {
   .text p:hover {
     color: red;
   }
+
+
+
+
+
+
+
+
+  /* Estilo para cualquier apartado de la página */
+.text li:hover {
+    transition: background-color 0.3s ease; /* Añade una transición suave */
+  }
+  
+  /* Cambiar el color de fondo a rojo cuando el ratón pase sobre el elemento */
+  .text li:hover {
+    color: red;
+  }
