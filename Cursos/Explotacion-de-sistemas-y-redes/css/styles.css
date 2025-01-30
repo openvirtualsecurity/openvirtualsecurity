@@ -98,13 +98,14 @@ nav ul li a {
     object-fit: cover; /* Asegura que la imagen se recorte para llenar el círculo sin distorsionarse */
 }
 
+/* Estilos despleglables */
 .desplegable-servicios {
     display: none;
     position: fixed;
     background-color: #000000;
     z-index: 2;
     color: white;
-    width: px;
+    width: 595px;
     left: px;
     top: px;
 }
@@ -663,4 +664,8 @@ body {
     margin: 20px auto; /* Auto en los laterales para centrar */
     max-width: 90%; /* Ajusta al 90% del ancho máximo */
     height: auto; /* Mantiene proporciones */
+}
+
+.fondo-negro {
+    background-color: #000;
 }
