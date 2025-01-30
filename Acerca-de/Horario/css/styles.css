@@ -652,3 +652,7 @@ body {
 .schedule {
     color: rgb(255, 255, 255)
 }
+
+.fondo-negro {
+    background-color: #000;
+}

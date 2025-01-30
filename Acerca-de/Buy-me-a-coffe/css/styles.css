@@ -601,4 +601,8 @@ body {
   .text p:hover {
     color: red;
   }
+
+  .fondo-negro {
+    background-color: #000;
+  }
   
