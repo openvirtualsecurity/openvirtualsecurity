@@ -665,3 +665,7 @@ body {
     max-width: 90%; /* Ajusta al 90% del ancho máximo */
     height: auto; /* Mantiene proporciones */
 }
+
+.fondo-negro {
+    background-color: #000;
+}
