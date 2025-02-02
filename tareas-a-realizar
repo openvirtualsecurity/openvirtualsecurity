@@ -47,9 +47,6 @@ Ajustar los menus :
       - Precios = Hecho 
       - Servicios = Hecho 
 
-
-
-      
 Actualizar la informacion de los footer
    - Acerca de = Terminado 
       - Comunidad = Terminado
@@ -59,17 +56,37 @@ Actualizar la informacion de los footer
       - Precios = Terminado
       - Servicios = Terminado
 
-Corregir las faltas de ortografia
-- Acerca de = Terminado 
-      - Comunidad = Terminado
-      - Cursos = Terminado
-      - Desarrolladores = Terminado
-      - Pagina de inicio = Terminado
-      - Precios = Terminado
-      - Servicios = Terminado 
 
 Configurar el titulo de pestaña de cada pagina 
-   - 
+      - Acerca de = 
+      - Comunidad = 
+      - Cursos = 
+      - Desarrolladores = 
+      - Pagina de inicio = 
+      - Precios = 
+      - Servicios =
+
+
+Corregir las faltas de ortografia
+      - Acerca de = 
+      - Comunidad = 
+      - Cursos = 
+      - Desarrolladores = 
+      - Pagina de inicio = 
+      - Precios = 
+      - Servicios = 
+
+
+Corregir el CSS de cada fichero
+      - Acerca de = 
+      - Comunidad = 
+      - Cursos = 
+      - Desarrolladores = 
+      - Pagina de inicio = 
+      - Precios = 
+      - Servicios =
+
+
 
 Subir paginas a apache
    - 
