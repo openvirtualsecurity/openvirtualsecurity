@@ -1,116 +1,480 @@
 <!DOCTYPE html>
-<!-- saved from url=(0037)https://openvirtualsecurity.ddns.net/ -->
-<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Virtual Security - Mantenimiento en Progreso</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .maintenance-container {
-            text-align: center;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            width: 90%;
-        }
-
-        h1 {
-            color: #d9534f;
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            color: #5bc0de;
-            font-size: 1.25rem;
-            margin-top: 20px;
-        }
-
-        p {
-            font-size: 1rem;
-            line-height: 1.5;
-        }
-
-        a {
-            text-decoration: none;
-            color: #d9534f;
-            font-weight: bold;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .contact-info {
-            margin-top: 20px;
-            font-size: 1rem;
-        }
-
-        .contact-info span {
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.5rem;
-            }
-
-            p {
-                font-size: 0.9rem;
-            }
-
-            .maintenance-container {
-                padding: 15px;
-            }
-        }
-    </style>
+    <title>Open Virtual Security</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/javascript.js" defer></script>
 </head>
 
 <body>
-    <div class="maintenance-container">
-        <h1>🔐 ¡Ya estamos en funcionamiento! 🚀</h1>
-        <p>Nos complace anunciar que <strong>Open Virtual Security</strong> ya está operativa, brindando servicios de ciberseguridad, <br>
-        hacking ético y pentesting ofensivo. Estamos listos para proteger tu entorno digital y ayudarte a defenderte<br>
-        de las amenazas más avanzadas.</p>
-
-        <h2>💻 Visita nuestra web:</h2>
-        <p>Nuestra página web ya está en línea y disponible para consultas. Sin embargo, queremos informarte que, por ahora, la página solo es completamente visualizable en pantallas de ordenadores. Estamos trabajando en la adaptación para dispositivos móviles y tablets. Te pedimos disculpas por cualquier inconveniente.</p>
-        <p>🔗 <a href="/Pagina-inicio/index.html">Para acceder a la página web de nuestra empresa, clickea en este enlace.</a></p>
-        <h2>🌐 ¿Qué encontrarás en nuestra web?</h2>
-        <p>Información detallada sobre nuestros servicios.<br>
-        Recursos sobre nuestras actividades de pentesting, Red Teaming y más.<br>
-        Acceso a nuestros cursos y formación en ciberseguridad.</p>
-
-        <p>⚠️ ¡Mantente atento! Pronto tendremos la página optimizada para todos los dispositivos, y te informaremos sobre las actualizaciones.</p>
-
-        <div class="contact-info">
-            <h2>📩 Contacto:</h2>
-            <span>✉️ openvs36524@gmail.com</span>
-            <span>✉️ openvirtsecadm@gmail.com</span>
-            <span>✉️ ovsatencionalcliente@gmail.com</span>
-            <span>📞 +34 643 92 04 96</span>
-            <span>📞 +34 677 76 28 23</span>
+    <!-- Header -->
+    <header class="fijo">
+        <div class="container">
+            <h1>Open Virtual Security</h1>
+            <nav>
+                <ul>
+                    <li><a class="nsvitem" href="/Pagina-inicio/index.html">Inicio</a></li>
+                    <li class="menu-servicios">
+                        <a class="nsvitem" id="services">Servicios</a>
+                        <div class="desplegable-servicios" id="menu-servicios">
+                            <a target="_blank" href="/Servicios/Monitorizacion-de-amenazas/index.html">Monitorización de
+                                Amenazas en Red y
+                                Sistemas 24 Horas 365 Días</a>
+                            <a target="_blank" href="/Servicios/Servicio-Premium-de-Black-Box/index.html">Servicio
+                                Premium de Black Box y Bug Bounty</a>
+                            <a target="_blank" href="/Servicios/Administracion-de-seguridad/index.html">Administración
+                                de seguridad</a>
+                            <a target="_blank" href="/Servicios/Administracion-de-sistemas/index.html">Administración
+                                de Sistemas</a>
+                            <a target="_blank" href="/Servicios/Ciberseguridad-Empresarial/index.html">Ciberseguridad
+                                Empresarial</a>
+                            <a target="_blank" href="/Servicios/Administracion-de-Firewalls/index.html">Administración
+                                de Firewalls</a>
+                            <a target="_blank" href="/Servicios/Administracion-de-redes/index.html">Administración de
+                                Redes</a>
+                            <a target="_blank" href="/Servicios/Concienciacion-y-Charlas/index.html">Concienciación y
+                                Charlas</a>
+                            <a target="_blank" href="/Servicios/Reparación-de-Hardware/index.html">Reparación de
+                                Hardware</a>
+                            <a target="_blank" href="/Servicios/Pentesting-Empresarial/index.html">Pentesting
+                                Empresarial</a>
+                            <a target="_blank" href="/Servicios/Asistenca-Técnica/index.html">Asistencia Técnica</a>
+                            <a target="_blank" href="/Servicios/Forense-Digital/index.html">Forense Digital</a>
+                            <a target="_blank" href="/Servicios/Hacking-Etico/index.html">Hacking Ético</a>
+                            <a target="_blank" href="/Servicios/Asesoria/index.html">Asesoría</a>
+                        </div>
+                    </li>
+                    <li><a class="nsvitem" id="courses">Cursos</a>
+                        <div class="desplegable-courses" id="menu-courses">
+                            <a target="_blank" href="/Cursos/Explotacion-de-sistemas-y-redes/index.html">Explotacion de
+                                redes y sistemas</a>
+                            <a target="_blank" href="/Cursos/Defensa-de-redes-y-sistemas//index.html">Defensa de redes y
+                                sistemas</a>
+                            <a target="_blank" href="/Cursos/Desarrollo-multiplataforma/index.html">Desarrollo
+                                multiplataforma</a>
+                            <a target="_blank" href="/Cursos/Seguridad-Informatica/index.html">Seguridad informatica</a>
+                            <a target="_blank" href="/Cursos/Hacking-Etico-Practico/index.html">Hacking Etico
+                                Practico</a>
+                            <a target="_blank" href="/Cursos/Hacking-Etico-Teorico//index.html">Hacking Etico
+                                Teorico</a>
+                            <a target="_blank" href="/Cursos/Ciberseguridad/index.html">Ciberseguridad</a>
+                            <a target="_blank" href="/Cursos/Desarrollo-web/index.html">Desarrollo web</a>
+                            <a target="_blank" href="/Cursos/Firewalling/index.html">Firewalling</a>
+                            <a target="_blank" href="/Cursos/Pentesting/index.html">Pentesting</a>
+                            <a target="_blank" href="/Cursos/Sistemas/index.html">Sistemas</a>
+                            <a target="_blank" href="/Cursos/Forense/index.html">Forense</a>
+                            <a target="_blank" href="/Cursos/Redes/index.html">Redes</a>
+                        </div>
+                    </li>
+                    <li><a class="nsvitem" id="prices">Precios</a>
+                        <div class="desplegable-prices" id="menu-prices">
+                            <a target="_blank" href="/Precios/Servicios/index.html">Servicios</a>
+                            <a target="_blank" href="/Precios/Charlas/index.html">Charlas</a>
+                            <a target="_blank" href="/Precios/Cursos/index.html">Cursos</a>
+                        </div>
+                    </li>
+                    <li><a class="nsvitem" id="comunity">Comunidad</a>
+                        <div class="desplegable-comunity" id="menu-comunity">
+                            <a target="_blank" href="/Comunidad/Instagram/index.html">Instagram</a>
+                            <a target="_blank" href="/Comunidad/Twitter/index.html">Twitter/X</a>
+                            <a target="_blank" href="/Comunidad/Discord/index.html">Discord</a>
+                            <a target="_blank" href="/Comunidad/Tik-Tok/index.html">Tik Tok</a>
+                        </div>
+                    </li>
+                    <li><a class="nsvitem" id="developers">Desarrolladores</a>
+                        <div class="desplegable-developers" id="menu-developers">
+                            <a target="_blank" href="/Desarrolladores/Infraestructura/index.html">Infraestructura</a>
+                            <a target="_blank" href="/Desarrolladores/Herramientas/index.html">Herramientas</a>
+                            <a target="_blank" href="/Desarrolladores/Sistemas/index.html">Sistemas</a>
+                        </div>
+                    </li>
+                    <li><a class="nsvitem" id="about">Acerca de</a>
+                        <div class="desplegable-about" id="menu-about">
+                            <a target="_blank" href="/Acerca-de/Buy-me-a-coffe/index.html">Buy me a coffe</a>
+                            <a target="_blank" href="/Acerca-de/Formaciones/index.html">Formaciones</a>
+                            <a target="_blank" href="/Acerca-de/Objetivos/index.html">Objetivos</a>
+                            <a target="_blank" href="/Acerca-de/Nosotros/index.html">Nosotros</a>
+                            <a target="_blank" href="/Acerca-de/Contacto/index.html">Contacto</a>
+                            <a target="_blank" href="/Acerca-de/Horario/index.html">Horario</a>
+                        </div>
+                    </li>
+                    <li class="Logo-bienvenida"><img src="imagenes/optimized_logo.png"></li>
+                </ul>
+            </nav>
         </div>
+    </header>
+    <!-- Home -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Protege tu Empresa con Nuestros Servicios de Ciberseguridad</h2>
+            <p>Descubre cómo podemos ayudarte a mantener tu empresa segura.</p>
+        </div>
+    </section>
+    <!-- Servicios -->
+    <section id="services" class="services">
+        <div class="container">
+            <h1 class="Servicios">Servicios que ofrecemos</h1>
+            <br>
+            <br>
+            <div class="service-cards">
+                <a href="/Servicios/Ciberseguridad-Empresarial/index.html">
+                    <div class="service-card">
+                        <img src="imagenes/Ciberseguridad Empresarial.jpg" alt="Ciberseguridad Empresarial">
+                        <div class="service-content">
+                            <h3>Ciberseguridad Empresarial</h3>
+                            <p>Protección avanzada para tu negocio contra amenazas cibernéticas. Cuenta con un 90 %
+                                menos de fallos de seguridad despues de contratarnos.
+                                Servicio garantizado .
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Hacking-Etico/index.html">
+                    <div class="service-card reverse">
+                        <img src="imagenes/Hacking Etico.jpg" alt="Hacking Ético">
+                        <div class="service-content">
+                            <h3>Hacking Ético</h3>
+                            <p>Evaluación y mejora de la seguridad de sistemas mediante técnicas de hacking ético.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Forense-Digital/index.html">
+                    <div class="service-card">
+                        <img src="imagenes/Forense Digital.jpg" alt="Forense Digital">
+                        <div class="service-content">
+                            <h3>Forense Digital</h3>
+                            <p>Análisis forense para investigar y responder a incidentes de
+                                seguridad.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Pentesting-Empresarial/index.html">
+                    <div class="service-card reverse">
+                        <img src="imagenes/Pentesting Empresarial.jpeg" alt="Pentesting Empresarial">
+                        <div class="service-content">
+                            <h3>Pentesting Empresarial</h3>
+                            <p>Pruebas de penetración personalizadas para identificar vulnerabilidades en tu empresa.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Asesoria/index.html">
+                    <div class="service-card">
+                        <img src="imagenes/Asesoria.jpg" alt="Asesoría">
+                        <div class="service-content">
+                            <h3>Asesoría</h3>
+                            <p>Consultoría especializada en estrategias de seguridad cibernética.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Asistenca-Técnica/index.html">
+                    <div class="service-card reverse">
+                        <img src="imagenes/Asistencia Técnica.jpg" alt="Asistencia Técnica">
+                        <div class="service-content">
+                            <h3>Asistencia Técnica</h3>
+                            <p>Soporte técnico continuo para mantener la seguridad de tu infraestructura.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Reparación-de-Hardware/index.html">
+                    <div class="service-card">
+                        <img src="imagenes/Reparación de hardware.jpg" alt="Reparación de Hardware">
+                        <div class="service-content">
+                            <h3>Reparación de Hardware</h3>
+                            <p>Reparación y mantenimiento de hardware afectado por incidentes de seguridad.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Administracion-de-seguridad/index.html">>
+                    <div class="service-card reverse">
+                        <img src="imagenes/Administración de sistemas.jpg" alt="Administración de Sistemas">
+                        <div class="service-content">
+                            <h3>Administración de Sistemas</h3>
+                            <p>Configuración y gestión de sistemas para optimizar la seguridad y el rendimiento.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Adminsitración-de-redes/index.html">
+                    <div class="service-card">
+                        <img src="imagenes/Administración de redes.jpg" alt="Administración de Redes">
+                        <div class="service-content">
+                            <h3>Administración de Redes</h3>
+                            <p>Control y mantenimiento de redes corporativas para asegurar la conectividad segura.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Administracion-de-Firewalls/index.html">
+                    <div class="service-card reverse">
+                        <img src="imagenes/Administración de Firewalls.jpg" alt="Administración de Firewalls">
+                        <div class="service-content">
+                            <h3>Administración de Firewalls</h3>
+                            <p>Configuración y monitorización de firewalls para proteger los accesos no autorizados.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Monitorizacion-de-amenazas/index.html">
+                    <div class="service-card">
+                        <img src="imagenes/Administración de seguridad.jpg" alt="Administración de Seguridad">
+                        <div class="service-content">
+                            <h3>Administración de Seguridad</h3>
+                            <p>Gestión integral de la seguridad de la información y sistemas corporativos.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Formación/index.html">
+                    <div class="service-card reverse">
+                        <img src="imagenes/Formación.png" alt="Formación">
+                        <div class="service-content">
+                            <h3>Formación</h3>
+                            <p>Capacitación especializada en prácticas de seguridad cibernética para el personal.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Concienciacion-y-Charlas/index.html">
+                    <div class="service-card">
+                        <img src="imagenes/Concienciación y Charlas.jpg" alt="Concienciación y Charlas">
+                        <div class="service-content">
+                            <h3>Concienciación y Charlas</h3>
+                            <p>Charlas y campañas para concienciar a los empleados sobre la seguridad informática.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Monitorizacion-de-amenazas/index.html">
+                    <div class="service-card reverse">
+                        <img src="imagenes/Monitorización de Amenazas en Red y Sistemas.jpg"
+                            alt="Monitorización de Amenazas en Red y Sistemas">
+                        <div class="service-content">
+                            <h3>Monitorización de Amenazas en Red y Sistemas 24 Horas, 365 Días</h3>
+                            <p>Vigilancia constante para identificar y neutralizar amenazas en tiempo real.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Servicios/Servicio-Premium-de-Black-Box/index.html">
+                    <div class="service-card">
+                        <img src="imagenes/Servicio Premium de Black Box.jpg" alt="Servicio Premium de Black Box">
+                        <div class="service-content">
+                            <h3>Servicio Premium de Black Box y Bug Bounty</h3>
+                            <p>Servicios avanzados de hacking ético y bug bounty para pruebas de seguridad extremas.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <h1 class="Menu-de-formaciones">Formaciones en redes e infraestructuras y sistemas computacionales en la
+                nube:</h1>
+            <br>
+        </div>
+        <div class="formaciones">
+            <!-- Primera fila -->
+            <a href="https://aws.amazon.com/es/certification/certified-security-specialty/">
+                <div class="formacion-card">
+                    <img src="./imagenes/Logo de aws.png" alt="Formación 1">
+                    <h3>Amazon Web Service</h3>
+                    <p>Especialistas en AWS, ofrecemos soluciones en la nube escalables y seguras para impulsar tu
+                        infraestructura tecnológica.</p>
+                </div>
+            </a>
+            <a
+                href="https://learn.microsoft.com/es-es/credentials/certifications/azure-security-engineer/?practice-assessment-type=certification">
+                <div class="formacion-card">
+                    <img src="./imagenes/Logo de microsoft.png" alt="Formación 2">
+                    <h3>Microsoft general</h3>
+                    <p>Somos expertos en tecnologías Microsoft, optimizando infraestructura con seguridad y eficiencia.
+                    </p>
+                </div>
+            </a>
+            <a
+                href="https://learn.microsoft.com/es-es/credentials/certifications/azure-data-engineer/?practice-assessment-type=certification">
+                <div class="formacion-card">
+                    <img src="./imagenes/Logo de microsoft azure.png" alt="Formación 3">
+                    <h3>Microsoft Azure Cloud Platform</h3>
+                    <p>Nos especializamos en tecnologías de Microsoft y Azure, enfocándonos en optimizar la
+                        infraestructura
+                        con un alto nivel de seguridad y rendimiento.</p>
+                </div>
+            </a>
+            <a href="https://cloud.google.com/learn/certification/cloud-security-engineer?hl=es-419">
+                <div class="formacion-card">
+                    <img src="./imagenes/Logotipo de google.png" alt="Formación 4">
+                    <h3>Google</h3>
+                    <p>Dominamos las tecnologías de Google, ofreciendo soluciones innovadoras para transformar y mejorar
+                        la
+                        gestión de la infraestructura tecnológica.</p>
+                </div>
+            </a>
+            <a href="https://cloud.google.com/learn/certification/data-engineer?hl=es-419">
+                <div class="formacion-card">
+                    <img src="./imagenes/Logo de google-cloud.png" alt="Formación 5">
+                    <h3>Google Data Cloud Platform</h3>
+                    <p>Somos especialistas en Google Cloud, diseñando e implementando soluciones escalables que
+                        potencian el
+                        rendimiento y la flexibilidad de las operaciones tecnológicas.</p>
+                </div>
+            </a>
+            <h1 class="Menu-de-formaciones">Formacion en ciberseguridad ofensiva y explotacion de sistemas, <br>
+                redes e infraestructuras tecnologicas:<h1>
+        </div>
+        <div class="formaciones">
+            <!-- Primera fila -->
+            <a href="https://www.eccouncil.org">
+                <div class="formacion-card">
+                    <br>
+                    <br>
+                    <img src="./imagenes/ec-council-white-logo.png" alt="Formación 1">
+                    <h3>Ec-Council</h3>
+                    <p>Hackers eticos profesionales, llevamos mas de 15 años reventando sistemas y redes. Asegurando
+                        redes y
+                        sistemas a nivel local</p>
+                </div>
+            </a>
+            <a href="https://www.offsec.com/courses/pen-200/">
+                <div class="formacion-card">
+                    <br>
+                    <br>
+                    <img src="./imagenes/Logo de offsec.png" alt="Formación 1">
+                    <h3>Offensive Security</h3>
+                    <p>Piratas informaticos profesionales con varios años de formacion continua, en todos los campos de
+                        la
+                        informatica, como redes, sistemas y servicios IOT de telecomunicaciones.</p>
+                </div>
+            </a>
+            <a href="https://www.redhat.com/es/services/certification/rhce">
+                <div class="formacion-card">
+                    <br>
+                    <br>
+                    <img src="./imagenes/Logo de redhat.jpeg" alt="Formacion 1">
+                    <h3>Red Hat</h3>
+                    <p>Especialistas en administracion de Sistemas Red Hat, administramos todo tipo de servidores y
+                        comunicaciones remotas en servidores Linux</p>
+                </div>
+            </a>
+            <a href="https://www.cisco.com/site/us/en/learn/training-certifications/tech-roles/network-engineer.html">
+                <div class="formacion-card">
+                    <br>
+                    <img src="./imagenes/1200px-Cisco_logo.svg.png" alt="Formacion 1">
+                    <h3>Cisco</h3>
+                    <p>Administrando redes y aprendiendo como funcionas la telecomunicacioens y tecnologias de la
+                        informacion desde casi los inicios de 2015</p>
+                </div>
+            </a>
+        </div>
+        <div>
+        </div>
+        <h1 class="Menu-de-formaciones">Otras formaciones en infraestructuras tecnologicas</h1>
+        <br>
+        </div>
+        <div class="formaciones">
+            <!-- Primera fila -->
+            <a href="https://www.usal.es">
+                <div class="formacion-card">
+                    <br>
+                    <br>
+                    <img src="./imagenes/Logo Universidad.png" alt="Formación 1">
+                    <h3>Universidad de Salamanca</h3>
+                    <p>Certificados en Ingenieria de Ciberseguridad</p>
+                </div>
+            </a>
+            <a href="https://www.deusto.es/es/inicio">
+                <div class="formacion-card">
+                    <br>
+                    <br>
+                    <img src="./imagenes/Logo deusto.png" alt="Formación 1">
+                    <h3>Universidad de Deusto</h3>
+                    <p>Master en Ciberseguridad ofensiva</p>
+                </div>
+            </a>
+            <a href="https://www.lpi.org/es/our-certifications/lpic-3-303-overview/">
+                <div class="formacion-card">
+                    <br>
+                    <br>
+                    <img src="./imagenes/Logo de Linux.png" alt="Formación 1">
+                    <h3>Linux Institute LPIC3</h3>
+                    <p>Ingenieros de Sistemas Linux en explotacion de sistemas y redes.</p>
+                </div>
+            </a>
+        </div>
+        <h1 class="Menu-de-formaciones">Otras formaciones en infraestructuras tecnologicas</h1>
+        <br>
+        </div>
+        <div class="formaciones">
+            <!-- Primera fila -->
+            <a href="https://c1b3rwall.policia.es">
+                <div class="formacion-card">
+                    <br>
+                    <br>
+                    <img src="./imagenes/Logo de ciberwall.png" alt="Formación 1">
+                    <h3>Ciberwall</h3>
+                    <p>Somos empresa asistente al congreso de Ciberseguridad de Ciberwall celebrada todos los años ,
+                        donde
+                        servicios secretos, policia nacional y servicios de inteligencia, muestran ataques al publico
+                        que
+                        realizan las mafias criminales.</p>
+                </div>
+            </a>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="about">
+        <a href="/Acerca-de/Nosotros/index.html">
+            <div class="container texto-centrado">
+                <h2>Acerca de Nosotros</h2>
+                <p>Expertos en redes y sistemas con años de experiencia.</p>
+                <p>Dominamos el arte de la tecnología y la ciberseguridad.</p>
+                <p>Llevamos el mundo digital a otro nivel.</p>
+                <p>¿Listo para optimizar y asegurar tu red?</p>
+                <p>Directores ejecutivos: Santiago Zarandona y Marcos Emilio</p>
+            </div>
+        </a>
+        <br>
+        <br>
+        <br>
+    </section>
+    <!-- Pie de página -->
+    <footer>
+        <div class="container texto-centrado">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Consulta nuestros precios</h3>
+                    <ul>
+                        <li><a href="/Precios/Servicios/index.html">Servicios</a></li>
+                        <li><a href="/Precios/Cursos/index.html">Cursos</a></li>
+                        <li><a href="/Precios/Charlas/index.html">Charlas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Empresa</h3>
+                    <ul>
+                        <li><a href="/Acerca-de/Buy-me-a-coffe/index.html">Buy me a coffe</a></li>
+                        <li><a href="/Acerca-de/Objetivos/index.html">Objetivos</a></li>
+                        <li><a href="/Acerca-de/Nosotros/index.html">Acerca de Nosotros</a></li>
+                        <li><a href="/Acerca-de/Formaciones/index.html">Certificaciones</a></li>
+                        <li><a href="/Acerca-de/Horario/index.html">Horario</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><a href="mailto:openvs36524@gmail.com">openvs36524@gmail.com</a></li>
+                        <li><a href="mailto:openvirtsecadm@gmail.com">openvirtsecadm@gmail.com</a></li>
+                        <li><a href="mailto:ovsatencionalcliente@gmail.com">ovsatencionalcliente@gmail.com</a></li>
+                        <li><a href="tel:+34 643 92 04 96">+34 643 92 04 96</a></li>
+                        <li><a href="tel:+34 677 76 28 23">+34 677 76 28 23</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <p>&copy; Open Virtual Security. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
 
-        
-
-        <p>#OpenVirtualSecurity #YaEstamosEnFuncionamiento #Ciberseguridad #HackingÉtico #Pentesting #WebEnConstrucción</p>
-    </div>
-
-
-
-</body></html>
+</html>
